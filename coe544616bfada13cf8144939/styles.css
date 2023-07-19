@@ -1,0 +1,54 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+head {
+    
+}
+body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    
+}
+#title {
+    background-image: url("images/fontainebleau.jpeg");
+    text-align: center;
+    background-size: cover;
+    color: white;
+    text-shadow: 0px 0px 5px black;   
+}
+#activities {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.bold {
+    font-weight: bold;
+}
+.img-act {
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+}
+#your-guide-card {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color:brown;
+    padding: 10px;
+    margin-top: 100px;
+    width: 400px;
+    
+}
+#wolf-pic {
+    width: 150px;
+    
+}
